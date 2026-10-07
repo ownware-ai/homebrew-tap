@@ -3,17 +3,17 @@
 class Easelry < Formula
   desc "Your agents work on your real files; you see every change and can undo any of it"
   homepage "https://github.com/ownware-ai/easelry-plugin"
-  version "0.1.0"
+  version "0.1.1"
   license "proprietary"
 
   on_macos do
     on_arm do
       url "https://github.com/ownware-ai/homebrew-tap/releases/download/v#{version}/easelry-darwin-arm64.tar.gz"
-      sha256 "af47745c0a45e1391adab142d1193ce837a1b465d65a6029edd13605aa3e8213"
+      sha256 "9880e576df13a1b87c57845d6103b0fe68bf441037bd4f15b0a42558a18e79d8"
     end
     on_intel do
       url "https://github.com/ownware-ai/homebrew-tap/releases/download/v#{version}/easelry-darwin-x64.tar.gz"
-      sha256 "27a2f42596475f206fd67d431c6b7413e8cebaba3df711e23af7328ea8c89670"
+      sha256 "5a6ee8123a27e42bb68ccdf4bac82f5967bfff1f1ce7188ab3d173c0ec6dd320"
     end
   end
 
